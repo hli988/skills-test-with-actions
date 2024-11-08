@@ -26,10 +26,17 @@ _Congratulations friend, you've completed this course!_
 
 Here's a recap of all the tasks you've accomplished in your repository:
 
-- We created an Actions workflow to lint our Markdown files.
-- You caught an issue in a file and fixed the issue before it could make it to `main`.
-- You learned how to use build artifacts for test reports.
-- You enabled branch protections to require the workflow to pass before merging.
+**[ Takeaways ]**
+- **Workflow file: [ci.yml](https://github.com/hli988/skills-test-with-actions/blob/main/.github/workflows/ci.yml)**
+- **We created an Actions workflow to lint our Markdown files.**
+  - _Run markdown lint: Runs markdown lint and upload the `remark-lint-report.json` file._
+- **You caught an issue in a file and fixed the issue before it could make it to `main`.**
+- **You learned how to use build artifacts for test reports.**
+- **You enabled branch protections to require the workflow to pass before merging.**
+
+**[ CI in Summary ]**
+- **Run markdown lint when commit is pushed or pr is created;**
+- **Build artifact for lint report and upload it to a specific path in the runner.**
 
 ### What's next?
 
